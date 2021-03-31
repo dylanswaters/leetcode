@@ -1,10 +1,10 @@
 # leetcode 29
-# complete 
+# complete
 def divide(dividend, divisor):
     # div by 0 error
-    if divisor == 0:
-        print("div by zero")
-        return
+    # if divisor == 0:
+    #     print("div by zero")
+    #     return
     # check for negatives
     isNegative = False
     if bool(dividend < 0) ^ bool(divisor < 0):
