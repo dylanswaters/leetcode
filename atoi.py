@@ -8,6 +8,7 @@ def myAtoi(a):
         fStr = fStr[0:fStr.find(' ')]
     print("strip: " + fStr)
     if(fStr.isdigit()):
+        print("here")
         return int(fStr)
 
 def main():
