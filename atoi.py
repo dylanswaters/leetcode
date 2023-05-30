@@ -6,9 +6,9 @@ def myAtoi(a):
     # print(space)
     if(space != -1):
         fStr = fStr[0:fStr.find(' ')]
-    print("strip: " + fStr)
+    # print("strip: " + fStr)
     if(fStr.isdigit()):
-        print("here")
+        # print("here")
         return int(fStr)
 
 def main():
